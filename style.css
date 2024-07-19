@@ -104,8 +104,9 @@ svg:hover{
 }
 
 .contact-info {
-    animation: fadeIn 2s;
+    animation: fadeIn 2.1s;
 }
+
 
 
 /*Media queries*/
