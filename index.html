@@ -31,14 +31,16 @@ body {
 }
 
 .email-signature {
-    display: flex;
+    
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     padding: 1.5em;
     width: 600px;
-    background: rgb(35,13,69);
-    background: radial-gradient(circle, rgba(35,13,69,1) 0%, rgba(0,0,0,1) 100%);
+    background: rgb(35, 13, 69);
+    background: radial-gradient(circle, rgba(35, 13, 69, 1) 0%, rgba(0, 0, 0, 1) 100%);
     border-radius: 5em;
+    justify-items: stretch;
 }
 
 .profile-pic {
@@ -79,7 +81,7 @@ body {
 
 .social-icons {
     margin-top: 10px;
-    display: flex;
+    display:inline-flexbox;
     align-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -125,14 +127,15 @@ svg:hover{
 @media screen and (max-width: 768px) {
 
     .email-signature {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 1.5em;
-        width: 400px;
-        background: rgb(35,13,69);
-        background: radial-gradient(circle, rgba(35,13,69,1) 0%, rgba(0,0,0,1) 100%);
-        border-radius: 5em;
+        display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em;
+    width: 400px;
+    background: rgb(35, 13, 69);
+    background: radial-gradient(circle, rgba(35, 13, 69, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    border-radius: 5em;
+    justify-items: stretch;
     }
 
 }
